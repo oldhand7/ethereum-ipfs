@@ -1,0 +1,217 @@
+.konfirm {
+    width: 100%;
+    /* height: 90vh;
+    display: flex; */
+    flex-direction: column;
+  }
+  
+  .konfirmTop {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .konfirmBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+
+  
+  .konfirm .konfirmBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+  }
+  
+
+  /* =========================
+   Contact Us page style start 
+   ==============================*/
+section.inner_banner {
+  min-height: 363px;
+  border-bottom: 16px solid;
+  border-color: #ff9101;
+  margin-top: 91px;
+  position: relative;
+}
+section.contact-us-banner .black_overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+section.inner_banner img {
+  width: 100%;
+}
+section.contact-us-banner h2 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px 40px;
+}
+section.inner_banner h2 {
+  font-size: 62px;
+  color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+section.contact-us-banner h2 span {
+  color: #ff9101;
+}
+/* body style of contact us page */
+section.contact_us_content {
+  padding: 50px 0 150px 0;
+}
+section.contact_us_content h3 {
+  font-size: 26px;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+}
+section.contact_us_content h3:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #FF9101;
+  top: 50%;
+  left: 110%;
+}
+section.contact_us_content ul.footer-sub-links {
+  list-style: none;
+  margin-top: 7px;
+  margin-left: 0;
+  padding-left: 0;
+}
+section.contact_us_content ul.footer-sub-links li {
+  display: block;
+  line-height: 35px;
+  position: relative;
+  font-size: 16px;
+}
+section.contact_us_content ul.footer-sub-links li a {
+  color: #454545;
+  text-decoration: none;
+}
+section.contact_us_content ul.footer-sub-links li i{
+  margin-right: 12px;
+}
+/* title style all inner pages */
+section.contact_us_content .title,
+section.about_kl .title,
+section.ourApproach .title,
+section.why_kl .title {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  left: 0;
+  transform: inherit;
+}
+section.contact_us_content form.contact_form {
+  margin-top: 0;
+}
+section.contact_us_content form.contact_form span.current{
+  position: relative;
+  top: -10px;
+  color: #687497;
+  font-size: 16px;
+}
+section.contact_us_content form.contact_form span.policy{
+  font-size: 12px;
+  color: #707070;
+  position: relative;
+  top: -10px;
+}
+section.contact_us_content form.contact_form ul.list{
+  width: 100%;
+}
+section.contact_us_content form.contact_form .custom {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a5a5a5;
+  background: #fdfdfd;
+  margin: 13px 0;
+  border-radius: 5px;
+}
+section.contact_us_content form.contact_form button,
+section.about_kl a
+ {
+  background-color: #ff9101;
+  border-radius: 97px;
+  font-size: 18px;
+  margin-top: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  padding: 10px 25px;
+  border: 2px solid;
+  border-color: #ffffff;
+  box-shadow: 8px 14px 17px 0px #b7b5b5;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  text-decoration: none;
+}
+section.contact_us_content form.contact_form button:hover,
+section.about_kl a:hover{
+  box-shadow: none;
+}
+.konfirm .inner_banner {
+  min-height: 347px;
+  border-bottom: 16px solid;
+  border-color: #ff9101;
+  margin-top: 91px;
+  position: relative;
+}
+.konfirm .inner_banner img {
+  width: 100%;
+  vertical-align: middle;
+}
+.konfirm .inner_banner h2 {
+  font-size: 62px;
+  color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 35%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.konfirm .inner_banner h2 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px 40px;
+}
+.konfirm .inner_banner h2 span {
+  color: #ff9101;
+}
+.konfirmBottom {
+  padding: 50px 0 150px 0;
+}
+@media (min-width: 992px){
+.konfirmBottom p {
+  width: 1200px;
+}
+}
+/* Map area */
+section.ki_map {
+  min-height: 300px;
+}
+section.ki_map iframe {
+  width: 100%;
+}
+/* Contact Us page style #End */
+

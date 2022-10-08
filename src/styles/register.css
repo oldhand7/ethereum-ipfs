@@ -1,0 +1,117 @@
+.rcontainer{
+    padding-top:150px;
+    padding-bottom:100px;
+    padding-left:100px;
+    padding-right:100px
+}
+.pcontainer{
+  padding-top:200px;
+  padding-bottom:100px;
+  padding-left:100px;
+  padding-right:100px;
+  text-align : center;
+}
+.downcontainer{
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-left:100px;
+  padding-right:100px
+}
+.downpcontainer{
+  padding-top:50px;
+  padding-bottom:100px;
+  padding-left:100px;
+  padding-right:100px
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+form label {
+font-weight: bold;
+}
+
+form input {
+padding: 10px;
+font-size: 16px;
+border: 1px solid #bbbbbb;
+border-radius: 3px;
+margin-bottom: 5px;
+}
+
+form input:hover {
+border-color: #999999;
+}
+
+form input:focus {
+border-color: #0d6efd;
+}
+  
+[type="submit"] {
+    background: #0d6efd;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 3px;
+    padding: 12px 0;
+    cursor: pointer;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-top: 5px;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  [type="submit"]:disabled {
+    background: #68a4fd;
+  }
+  
+  [type="submit"]:disabled:hover {
+    box-shadow: none;
+  }
+  .success-msg,
+.err-msg {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.success-msg {
+  color: #ffffff;
+  background-color: #20c997;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.bottom-link {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.home {
+  text-align: center;
+}
+
+.home .img {
+  font-size: 100px;
+}
+
+.home h1 span {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+button.logout {
+  background: #dc3545;
+  border: 1px solid rgba(0, 0, 0, .3);
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button.logout:hover,
+[type="submit"]:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
